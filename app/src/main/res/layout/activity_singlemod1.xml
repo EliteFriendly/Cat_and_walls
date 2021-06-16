@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="c73"
     tools:context=".MainActivity">
 
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/gridLayout"
         android:layout_width="360dp"
         android:layout_height="360dp"
+        android:animationCache="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -25,7 +25,6 @@
             android:background="#FFFFFF"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c2"
             app:layout_column="1"
             app:layout_row="0" />
 
@@ -37,7 +36,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c1"
             app:layout_column="0"
             app:layout_row="0" />
 
@@ -49,7 +47,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c10"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -61,7 +58,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c19"
             app:layout_column="0"
             app:layout_row="2" />
 
@@ -73,7 +69,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c28"
             app:layout_column="0"
             app:layout_row="3" />
 
@@ -85,7 +80,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c29"
             app:layout_column="1"
             app:layout_row="3" />
 
@@ -97,7 +91,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c30"
             app:layout_column="2"
             app:layout_row="3" />
 
@@ -109,7 +102,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c31"
             app:layout_column="3"
             app:layout_row="3" />
 
@@ -121,7 +113,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c32"
             app:layout_column="4"
             app:layout_row="3" />
 
@@ -133,7 +124,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c33"
             app:layout_column="5"
             app:layout_row="3" />
 
@@ -145,7 +135,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c34"
             app:layout_column="6"
             app:layout_row="3" />
 
@@ -157,7 +146,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c35"
             app:layout_column="7"
             app:layout_row="3" />
 
@@ -169,7 +157,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c36"
             app:layout_column="8"
             app:layout_row="3" />
 
@@ -181,7 +168,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c37"
             app:layout_column="0"
             app:layout_row="4" />
 
@@ -193,7 +179,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c38"
             app:layout_column="1"
             app:layout_row="4" />
 
@@ -205,7 +190,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c39"
             app:layout_column="2"
             app:layout_row="4" />
 
@@ -217,7 +201,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c40"
             app:layout_column="3"
             app:layout_row="4" />
 
@@ -229,7 +212,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c41"
             app:layout_column="4"
             app:layout_row="4" />
 
@@ -241,7 +223,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c42"
             app:layout_column="5"
             app:layout_row="4" />
 
@@ -253,7 +234,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c43"
             app:layout_column="6"
             app:layout_row="4" />
 
@@ -265,7 +245,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c44"
             app:layout_column="7"
             app:layout_row="4" />
 
@@ -277,7 +256,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c45"
             app:layout_column="8"
             app:layout_row="4" />
 
@@ -289,7 +267,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c46"
             app:layout_column="0"
             app:layout_row="5" />
 
@@ -301,7 +278,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c47"
             app:layout_column="1"
             app:layout_row="5" />
 
@@ -313,7 +289,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c48"
             app:layout_column="2"
             app:layout_row="5" />
 
@@ -325,7 +300,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c49"
             app:layout_column="3"
             app:layout_row="5" />
 
@@ -337,7 +311,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c50"
             app:layout_column="4"
             app:layout_row="5" />
 
@@ -349,7 +322,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c51"
             app:layout_column="5"
             app:layout_row="5" />
 
@@ -361,7 +333,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c52"
             app:layout_column="6"
             app:layout_row="5" />
 
@@ -373,7 +344,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c53"
             app:layout_column="7"
             app:layout_row="5" />
 
@@ -385,7 +355,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c54"
             app:layout_column="8"
             app:layout_row="5" />
 
@@ -397,7 +366,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c55"
             app:layout_column="0"
             app:layout_row="6" />
 
@@ -409,7 +377,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c56"
             app:layout_column="1"
             app:layout_row="6" />
 
@@ -421,7 +388,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c57"
             app:layout_column="2"
             app:layout_row="6" />
 
@@ -433,7 +399,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c58"
             app:layout_column="3"
             app:layout_row="6" />
 
@@ -445,7 +410,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c59"
             app:layout_column="4"
             app:layout_row="6" />
 
@@ -457,7 +421,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c60"
             app:layout_column="5"
             app:layout_row="6" />
 
@@ -469,7 +432,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c61"
             app:layout_column="6"
             app:layout_row="6" />
 
@@ -481,7 +443,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c62"
             app:layout_column="7"
             app:layout_row="6" />
 
@@ -493,7 +454,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c63"
             app:layout_column="8"
             app:layout_row="6" />
 
@@ -505,7 +465,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c64"
             app:layout_column="0"
             app:layout_row="7" />
 
@@ -517,7 +476,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c65"
             app:layout_column="1"
             app:layout_row="7" />
 
@@ -529,7 +487,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c66"
             app:layout_column="2"
             app:layout_row="7" />
 
@@ -541,7 +498,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c67"
             app:layout_column="3"
             app:layout_row="7" />
 
@@ -553,7 +509,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c68"
             app:layout_column="4"
             app:layout_row="7" />
 
@@ -565,7 +520,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c69"
             app:layout_column="5"
             app:layout_row="7" />
 
@@ -577,7 +531,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c70"
             app:layout_column="6"
             app:layout_row="7" />
 
@@ -589,7 +542,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c71"
             app:layout_column="7"
             app:layout_row="7" />
 
@@ -601,7 +553,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c72"
             app:layout_column="8"
             app:layout_row="7" />
 
@@ -613,7 +564,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c73"
             app:layout_column="0"
             app:layout_row="8" />
 
@@ -625,7 +575,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c74"
             app:layout_column="1"
             app:layout_row="8" />
 
@@ -637,7 +586,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c75"
             app:layout_column="2"
             app:layout_row="8" />
 
@@ -649,7 +597,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c76"
             app:layout_column="3"
             app:layout_row="8" />
 
@@ -661,7 +608,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c77"
             app:layout_column="4"
             app:layout_row="8" />
 
@@ -673,7 +619,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c78"
             app:layout_column="5"
             app:layout_row="8" />
 
@@ -685,7 +630,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c79"
             app:layout_column="6"
             app:layout_row="8" />
 
@@ -697,7 +641,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c80"
             app:layout_column="7"
             app:layout_row="8" />
 
@@ -709,7 +652,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c81"
             app:layout_column="8"
             app:layout_row="8" />
 
@@ -721,7 +663,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c21"
             app:layout_column="2"
             app:layout_row="2" />
 
@@ -733,7 +674,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c22"
             app:layout_column="3"
             app:layout_row="2" />
 
@@ -745,7 +685,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c23"
             app:layout_column="4"
             app:layout_row="2" />
 
@@ -757,7 +696,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c24"
             app:layout_column="5"
             app:layout_row="2" />
 
@@ -769,7 +707,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c25"
             app:layout_column="6"
             app:layout_row="2" />
 
@@ -781,7 +718,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c26"
             app:layout_column="7"
             app:layout_row="2" />
 
@@ -793,7 +729,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c27"
             app:layout_column="8"
             app:layout_row="2" />
 
@@ -805,7 +740,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c20"
             app:layout_column="1"
             app:layout_row="2" />
 
@@ -817,7 +751,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c11"
             app:layout_column="1"
             app:layout_row="1" />
 
@@ -829,7 +762,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c12"
             app:layout_column="2"
             app:layout_row="1" />
 
@@ -841,7 +773,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c13"
             app:layout_column="3"
             app:layout_row="1" />
 
@@ -853,7 +784,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c14"
             app:layout_column="4"
             app:layout_row="1" />
 
@@ -865,7 +795,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c15"
             app:layout_column="5"
             app:layout_row="1" />
 
@@ -877,7 +806,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c16"
             app:layout_column="6"
             app:layout_row="1" />
 
@@ -889,7 +817,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c17"
             app:layout_column="7"
             app:layout_row="1" />
 
@@ -901,7 +828,6 @@
             android:clickable="false"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c18"
             app:layout_column="8"
             app:layout_row="1" />
 
@@ -912,7 +838,6 @@
             android:background="#FFFFFF"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c3"
             app:layout_column="2"
             app:layout_row="0" />
 
@@ -923,7 +848,6 @@
             android:background="#FFFFFF"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c4"
             app:layout_column="3"
             app:layout_row="0" />
 
@@ -934,7 +858,6 @@
             android:background="#FFFFFF"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c5"
             app:layout_column="4"
             app:layout_row="0" />
 
@@ -945,7 +868,6 @@
             android:background="#FFFFFF"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c6"
             app:layout_column="5"
             app:layout_row="0" />
 
@@ -956,7 +878,6 @@
             android:background="#FFFFFF"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c7"
             app:layout_column="6"
             app:layout_row="0" />
 
@@ -967,7 +888,6 @@
             android:background="#FFFFFF"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c8"
             app:layout_column="7"
             app:layout_row="0" />
 
@@ -978,7 +898,6 @@
             android:background="#FFFFFF"
             android:foreground="@android:drawable/gallery_thumb"
             android:foregroundTint="#373737"
-            android:onClick="c9"
             app:layout_column="8"
             app:layout_row="0" />
 
@@ -1021,7 +940,7 @@
         android:rotation="90"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="@+id/DOWN"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.85" />
@@ -1051,7 +970,7 @@
         android:rotation="270"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/RIGHT"
-        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintHorizontal_bias="0.588"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.85" />
@@ -1068,7 +987,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.752" />
+        app:layout_constraintVertical_bias="0.744" />
 
     <Button
         android:id="@+id/menu"
