@@ -26,11 +26,25 @@ public class Menu extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void back(View view){
+        Button b1=findViewById(R.id.b1);
+        Button b2=findViewById(R.id.b2);
+        Button b3=findViewById(R.id.b3);
+        Button b4=findViewById(R.id.b4);
+        View back=findViewById(R.id.back);
+        b3.setVisibility(b3.VISIBLE);
+        b4.setVisibility(b4.VISIBLE);
+        b1.setVisibility(b1.GONE);
+        b2.setVisibility(b2.GONE);
+        back.setVisibility(back.GONE);
+    }
+
     public void onClick(View view) {
         Button b1=findViewById(R.id.b1);
         Button b2=findViewById(R.id.b2);
         Button b3=findViewById(R.id.b3);
         Button b4=findViewById(R.id.b4);
+        View back=findViewById(R.id.back);
         Intent i;
         i = new Intent(this, MainActivity.class);
         startActivity(i);
@@ -38,16 +52,19 @@ public class Menu extends AppCompatActivity {
         b4.setVisibility(b4.VISIBLE);
         b1.setVisibility(b1.GONE);
         b2.setVisibility(b2.GONE);
+        back.setVisibility(back.GONE);
     }
     public void b4(View view){
         Button b1=findViewById(R.id.b1);
         Button b2=findViewById(R.id.b2);
         Button b3=findViewById(R.id.b3);
         Button b4=findViewById(R.id.b4);
+        View back=findViewById(R.id.back);
 
         b3.setVisibility(b3.GONE);
         b4.setVisibility(b4.GONE);
         b1.setVisibility(b1.VISIBLE);
         b2.setVisibility(b2.VISIBLE);
+        back.setVisibility(back.VISIBLE);
     }
 }
