@@ -2,6 +2,8 @@ package com.example.game;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -278,11 +280,8 @@ public class MainActivity extends AppCompatActivity {
         View right = findViewById(R.id.RIGHT);
         View down = findViewById(R.id.DOWN);
         View left = findViewById(R.id.LEFT);
+        Button menu=findViewById(R.id.menu);
         Button but = findViewById(R.id.but);
-        TextView xv = findViewById(R.id.xv);
-        TextView yv = findViewById(R.id.yv);
-        EditText x = findViewById(R.id.x);
-        EditText y = findViewById(R.id.y);
         TextView help = findViewById(R.id.help);
         for (int i = 0; i < pole.length; i++) {
             for (int j = 0; j < pole.length; j++) {
@@ -293,6 +292,7 @@ public class MainActivity extends AppCompatActivity {
             View view=findViewById(views[i]);
             view.setBackgroundColor(Color.parseColor("#FFFFFF"));
         }
+        menu.setVisibility(menu.GONE);
         but.setVisibility(but.GONE);
         right.setVisibility(right.VISIBLE);
         down.setVisibility(down.VISIBLE);
@@ -306,6 +306,10 @@ public class MainActivity extends AppCompatActivity {
         pole[x2][y2] = 2;
     }
 
+    public void menu(View view){
+        super.onBackPressed();
+    }
+
     public void end_game(int w) {
         View up = findViewById(R.id.UP);
         View right = findViewById(R.id.RIGHT);
@@ -313,11 +317,8 @@ public class MainActivity extends AppCompatActivity {
         View left = findViewById(R.id.LEFT);
 
         Button but = findViewById(R.id.but);
-        TextView xv = findViewById(R.id.xv);
-        TextView yv = findViewById(R.id.yv);
-        EditText x = findViewById(R.id.x);
-        EditText y = findViewById(R.id.y);
         TextView help = findViewById(R.id.help);
+        Button menu=findViewById(R.id.menu);
 
 
         if (w == 2) {
@@ -332,6 +333,7 @@ public class MainActivity extends AppCompatActivity {
         left.setVisibility(left.GONE);
         up.setVisibility(up.GONE);
 
+        menu.setVisibility(menu.VISIBLE);
         but.setVisibility(but.VISIBLE);
         but.setText("Заново?");
     }
@@ -343,10 +345,6 @@ public class MainActivity extends AppCompatActivity {
         View left = findViewById(R.id.LEFT);
 
         Button but = findViewById(R.id.but);
-        TextView xv = findViewById(R.id.xv);
-        TextView yv = findViewById(R.id.yv);
-        EditText x = findViewById(R.id.x);
-        EditText y = findViewById(R.id.y);
         TextView help = findViewById(R.id.help);
 
         right.setVisibility(right.GONE);
@@ -365,10 +363,6 @@ public class MainActivity extends AppCompatActivity {
         View left = findViewById(R.id.LEFT);
 
         Button but = findViewById(R.id.but);
-        TextView xv = findViewById(R.id.xv);
-        TextView yv = findViewById(R.id.yv);
-        EditText x = findViewById(R.id.x);
-        EditText y = findViewById(R.id.y);
         TextView help = findViewById(R.id.help);
         if (hode!=3){
             right.setVisibility(right.VISIBLE);
@@ -410,6 +404,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView help = findViewById(R.id.help);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         help.setText("Ход кота\nВыберите направление");
         View c2_23 = findViewById(R.id.c2_23);
         c2_23.setBackgroundColor(Color.parseColor("#FB0202"));
@@ -498,7 +493,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void c1(View view){ if(plhode==2){   if(pl2_hode(1, 1)==true){   colour(1, 1, 2);  cikl(); find12();proverka(x2, y2); clean();  pl2_visibility();  plhode=1; end_game(2); }  } }
+    public void c1(View view){ if(plhode==2){   if(pl2_hode(1, 1)==true){   colour(1, 1, 2);  cikl(); find12();proverka(x2, y2); clean();  pl2_visibility();  plhode=1; }  } }
     public void c2(View view){ if(plhode==2){   if(pl2_hode(2, 1)==true){   colour(2, 1, 2);  cikl(); find12();proverka(x2, y2); clean();  pl2_visibility();  plhode=1; }  } }
     public void c3(View view){ if(plhode==2){   if(pl2_hode(3, 1)==true){   colour(3, 1, 2);  cikl(); find12();proverka(x2, y2); clean();  pl2_visibility();  plhode=1; }  } }
     public void c4(View view){ if(plhode==2){   if(pl2_hode(4, 1)==true){   colour(4, 1, 2);  cikl(); find12();proverka(x2, y2); clean();  pl2_visibility();  plhode=1; }  } }
@@ -579,4 +574,17 @@ public class MainActivity extends AppCompatActivity {
     public void c79(View view){ if(plhode==2){   if(pl2_hode(7, 9)==true){   colour(7, 9, 2);  cikl(); find12();proverka(x2, y2); clean();  pl2_visibility();  plhode=1; }  } }
     public void c80(View view){ if(plhode==2){   if(pl2_hode(8, 9)==true){   colour(8, 9, 2);  cikl(); find12();proverka(x2, y2); clean();  pl2_visibility();  plhode=1; }  } }
     public void c81(View view){ if(plhode==2){   if(pl2_hode(9, 9)==true){   colour(9, 9, 2);  cikl(); find12();proverka(x2, y2); clean();  pl2_visibility();  plhode=1; }  } }
+
+    /*public void c1(View view){
+        if(plhode==2){
+            if(pl2_hode(1,1)==true){
+                colour(1, 1, 2);
+                cikl();
+                find12();
+                proverka(x2, y2);
+                clean();
+                pl2_visibility();
+                plhode=1;
+            }
+        }*/
 }
